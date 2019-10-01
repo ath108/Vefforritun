@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+
+  font-family: 'Open Sans', helvetica, arial, sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+h2 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+p {
+  line-height: 1.25em;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1500px;
+  padding: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.card {
+  display: flex;
+  background-color: #fff;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: #aaa;
+  max-width: 470px;
+  max-height: 320px;
+  margin-bottom: 0.625em;
+  align-content: space-around;
+  overflow: auto;
+  word-break: break-word;
+  flex-wrap: wrap;
+}
+
+.card__first {
+  order: -1;
+  display: flex;
+  background-color: #fff;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: #aaa;
+  max-width: 470px;
+  max-height: 320px;
+  margin-bottom: 0.625em;
+  align-content: space-around;
+  overflow: auto;
+  word-break: break-word;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 9.375em;
+  padding-right: 1.25em;
+}
+
+.word-wrap {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
